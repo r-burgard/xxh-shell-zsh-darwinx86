@@ -88,7 +88,7 @@ if [[ ! -f .entrypoint-check-done ]]; then
   fi
 fi
 
-export XXH_HOME="~/.xxh/"
+export XXH_HOME="$HOME/.xxh/"
 
 
 if [[ ! -d $XXH_HOME/.local/share/zsh ]]; then
